@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="correspondence_grouping" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\pcl-1.7\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\vtk-5.8\;CMake Files\..\..\..\..\usr\lib\vtk-5.8\CMake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/dede/xtion/correspondence_grouping/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="correspondence_grouping">
+         <Option output="/home/dede/xtion/correspondence_grouping/build/correspondence_grouping" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dede/xtion/correspondence_grouping/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DFLANN_STATIC" />
+            <Add option="-Dqh_QHpointer" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 correspondence_grouping" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="correspondence_grouping/fast">
+         <Option output="/home/dede/xtion/correspondence_grouping/build/correspondence_grouping" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dede/xtion/correspondence_grouping/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DFLANN_STATIC" />
+            <Add option="-Dqh_QHpointer" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/openni" />
+            <Add directory="/usr/include/pcl-1.7" />
+            <Add directory="/usr/include/qhull" />
+            <Add directory="/usr/include/vtk-5.8" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 correspondence_grouping/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/dede/xtion/correspondence_grouping/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/dede/xtion/correspondence_grouping/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dede/xtion/correspondence_grouping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/correspondence_grouping.cpp">
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/share/pcl-1.7/PCLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\pcl-1.7\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/share/pcl-1.7/PCLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\pcl-1.7\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKTargets-debug.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\" />
+      </Unit>
+      <Unit filename="/home/dede/xtion/correspondence_grouping/../../../../usr/lib/vtk-5.8/CMake/vtkMakeInstantiator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\lib\vtk-5.8\CMake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
